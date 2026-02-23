@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(247, 221, 189);
+    font-size: 39px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.prin {
+    display: flex;
+    justify-content: center;
+}
+
+.prin div {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(63, 60, 63);
+    color: aliceblue; 
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+/* imagem maior */
+.card img {
+    width: 700px;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+    /* corrigido */
+    transition: 0.4s;
+    border: 20px outset rgb(49, 4, 4);
+
+}
+
+/* efeito hover */
+.card:hover img {
+    transform: scale(1.05);
+
+}
